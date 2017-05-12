@@ -1,0 +1,22 @@
+tech html : 
+
+		abbreviation : La <abbr title="Federation Francaise de Football">FFF est cool
+		
+		<q> : citation  ("") 
+		
+		<ol>
+		   <li>
+		   <li>
+		<ol> -> liste enn pointillés 
+
+		Formulaires : <form method="post"/"get"	action="">
+				veuillez inserer le texte
+					<input type="text" name="fullname" size="60" />
+					<input type="submit"  value="send">
+			        </form>
+		Date :	<form action"demo_form.asp" method="get">
+				entrer une date entre 2002 et 2008:
+				<input type="date" name="bday" min="2000-01-01"><br>
+
+			<input type="submit" value="Send">
+			</form>
