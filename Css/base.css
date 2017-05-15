@@ -1,17 +1,94 @@
-body {
-        background-image: url(https://images7.alphacoders.com/423/thumb-1920-423137.jpg);
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-    }
+
+html,body {
+    margin:0;
+    padding:0;
+
+}
+
+header {
+    width: 100%;
+    margin:0 auto ;
+    height:425px;
+    background: url(https://images7.alphacoders.com/423/thumb-1920-423137.jpg) ;
+    background-size: cover;
+    background-position: center;
 
 
+}
+.haut{
+    position:relative;
+    margin: 0;
+
+}
+
+.haut .centrehaut {
+    position: absolute;
+    margin-left : 25.1%
+
+}
+.haut .centrehaut p {
+    color : rgba(107, 105, 105, 0.72);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+}
+.licorne {
+    position: absolute;
+    margin: 2.5% 25%;
+}
 
 
-.licorne{
-    position:absolute;
-    top:5%;
-    left:17%;
-    ;
+.liens {
+    position: absolute;
+    margin-left:25%;
+    margin-top : -3%;
+    text-decoration: none;
+
+
+}
+.liens ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.liens li{
+    margin-left:2px;
+    float:left;
+}
+
+.liens ul li a {
+    display:block;
+    float:left;
+
+ }
+.liens ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+}
+.premier {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+
+}
+
+.deuxieme{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    margin-left:350%;
+
+}
+.troisieme{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    margin-left:550%;
 
 }
