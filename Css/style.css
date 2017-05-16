@@ -45,12 +45,12 @@ html,body {
     color:#FFFFFF;
     font-size:140%;
     padding:10px 20px 10px 20px;
-    border: solid #f43b38 3px;
+    border: solid #00a4d1 3px;
     text-decoration: none;
 }
 
 .button:hover{
-    color: #6d5a5d;
-    border:solid #6d5a5d 3px;
+    color: #00116d;
+    border:solid #000b6d 3px;
 
 }

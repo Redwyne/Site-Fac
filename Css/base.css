@@ -7,25 +7,23 @@ html,body {
 
 header {
     width: 100%;
-    margin:0 auto ;
-    height:425px;
+    margin-top:0  ;
+    height:480px;
     background: url(https://images7.alphacoders.com/423/thumb-1920-423137.jpg) ;
     background-size: cover;
     background-position: center;
 
-
 }
 .haut{
     position:relative;
-    margin: 0;
+
 
 }
 
 .haut .centrehaut {
-    position: absolute;
-    top:15%;
-    left: 28.5%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 3% ;
+    left: 25%;
 
 }
 .haut .centrehaut p {
@@ -34,18 +32,14 @@ header {
     text-transform: uppercase;
     font-family:'Open Sans', sans-serif;
 }
-.licorne {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 
 .liens {
     position: relative;
-    margin-left:25%;
-    margin-top : -3%;
+    left:25%;
+    right:25%;
+    margin-top:-3.8%;
     text-decoration: none;
 
 
@@ -65,27 +59,19 @@ header {
     float:left;
 
  }
-.liens ul li a:hover {
- background-color:#D3D3D3;
- border-color:#696969 #DCDCDC #DCDCDC #696969;
-}
+
+
+
 .premier {
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
     font-family:'Open Sans', sans-serif;
-    color: #FFFFFF;
-
+    color: #f5f7f9;
+    padding:20% 130% 20% 10%;
 }
-
-.deuxieme{
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
-    font-family:'Open Sans', sans-serif;
-    color: #FFFFFF;
-    margin-left:350%;
-
+.premier:hover{
+    background-color: #00a4d1;
 }
 .deuxieme{
     text-decoration: none;
@@ -93,6 +79,46 @@ header {
     text-transform: uppercase;
     font-family:'Open Sans', sans-serif;
     color: #FFFFFF;
-    margin-left:350%;
+    margin-left: 220%;
+    margin-top:1%;
+    padding:30% 165% 30% 140%;
 
+
+}
+.deuxieme:hover{
+    background-color: #00a4d1;
+}
+
+.troisieme{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    margin-left: 350%;
+    padding: 20% 10% 20% 150%;
+
+
+
+
+
+}
+.troisieme:hover{
+    background-color: #00a4d1;
+}
+
+.now {
+    position: relative;
+    margin: 7% 45% 0% 25%;
+    background-color: #00a4d1;
+    padding:0% 0% 10% 0;
+
+}
+.now p{
+    text-decoration: none;
+    font-size: 120%;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding:2% 0% 0% 2%;
 }
