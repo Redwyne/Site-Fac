@@ -84,7 +84,7 @@ section:nth-of-type(even) {
     background-color: #00a4d1;
 }
 
-#premier {
+#liens ul li a:nth-of-type(1) {
     color: #f5f7f9;
 }
 
