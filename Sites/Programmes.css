@@ -1,46 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-
-}
-
-header {
-    width: 100%;
-    margin-top: 0;
-    height: 400px;
-    background: url(https://images7.alphacoders.com/423/thumb-1920-423137.jpg);
-    background-size: cover;
-    background-position: center;
-
-}
-
-@media screen and (max-height: 900px) {
-    header {
-        width: 100%;
-        margin-top: 0;
-        height: 350px;
-        background: url(https://images7.alphacoders.com/423/thumb-1920-423137.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-
-}
-
-.haut {
-    position: relative;
-    resize: both;
-    width: 100%;
-}
-
-.haut .centrehaut {
-    position: relative;
-    margin: 0% 25% 0 25%;
-    background-image: url(../img/imagelicorne.jpg);
-    background-size: cover;
-
-    padding: 0% 0% 13% 0;
-}
-
 .liens {
     position: absolute;
     right: 25%;
@@ -104,8 +61,4 @@ header {
 #Demande:hover {
     background-color: #00a4d1;
     color: #FFFFFF;
-}
-
-#credits {
-
 }
