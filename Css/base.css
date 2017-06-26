@@ -1,10 +1,16 @@
+
+/*********** Bases Css pour toutes les pages  *******************/
+
+
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #636363;
 
 }
 
 header {
+    position : fixed;
     width: 100%;
     margin-top: 0;
     height: 400px;
@@ -26,6 +32,7 @@ header {
 
 }
 
+/*********** gestion haut de la page  *******************/
 .haut {
     position: relative;
     resize: both;
@@ -41,6 +48,7 @@ header {
     padding: 0% 0% 13% 0;
 }
 
+/*********** Gestion des liens (si aucune changement)  *******************/
 .liens {
     position: absolute;
     right: 25%;
@@ -61,14 +69,19 @@ header {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 
+
 }
 
 #programme:hover {
+    transition: background-color 1s  ease,padding 1s ease;
     background-color: #00a4d1;
     color: #FFFFFF;
+    padding:7% 17% 10% 5% ;
+    border-radius: 25px;
 }
 
 #Galerie {
+    position: relative;
     height: 5%;
     width: 10%;
     display: inline-block;
@@ -83,8 +96,11 @@ header {
 }
 
 #Galerie:hover {
+    transition: background-color 1s  ease,padding 1s ease;
     background-color: #00a4d1;
     color: #FFFFFF;
+    padding: 5% 12% 9% 14% ;
+    border-radius: 25px;
 }
 
 #Demande {
@@ -102,10 +118,19 @@ header {
 }
 
 #Demande:hover {
+    transition: background-color 1s  ease,padding 1s ease;
     background-color: #00a4d1;
     color: #FFFFFF;
+    padding:7% 9% 10% 12% ;
+    border-radius: 25px;
+
 }
 
 #credits {
+    margin-top:2%;
+    text-align: center;
+    color: #ffaaa5;
+    font-size:0.8vw;
+    font-family: "Arial Black",sans-serif;
 
 }

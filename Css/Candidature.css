@@ -1,0 +1,283 @@
+/**************** Premiere section "Qui etes vous ?"**********/
+
+
+
+
+
+.Vous {
+    position: relative;
+    background-color: #00a4d1;
+    margin: 4% 25% 0 25%;
+    padding-bottom:11%;
+    border-radius:1vw;
+    transition: 0.5s;
+}
+
+.Vous:hover{
+    margin:3% 24% 4% 24%;
+    background-color: #0078a5;
+    padding-bottom: 13%;
+}
+.Vous a{
+    color: #000b6d;
+    font-family: "Arial Black",sans-serif;
+    font-size:0.9vw;
+}
+#Text1{
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 0 0 35%;
+    font-size:1.7vw;
+    font-family: "Arial Black",sans-serif;
+
+}
+
+
+#Q1 {
+    float:left;
+    margin-left: 5%;
+}
+
+
+
+#Q2 {
+
+    float:left;
+    padding-left:10%;
+}
+
+#Q3 {
+    float:left;
+    padding-left:10%;
+}
+
+
+
+
+
+
+
+
+
+/***************** 2EME section, "Formation" ************/
+
+
+
+
+
+
+
+
+
+.formation {
+    position:relative;
+    background-color: #f1a93f;
+    margin: 3% 2% 0 25%;
+    padding-bottom: 3%;
+    border-radius: 1vw;
+    transition: 0.5s;
+    float:left;
+    padding-right: 4%;
+}
+
+.formation:hover {
+    background-color: #c4803b;
+    margin:5% 2% 2% 23%;
+}
+.formation #text2 {
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 0 0 18%;
+    font-size:1.3vw;
+    font-family: "Arial Black",sans-serif;
+}
+
+#Q4 {
+    margin-left:5%;
+}
+
+.formation a{
+     color: #733b2f;
+    font-family: "Arial Black",sans-serif;
+    font-size:0.8vw;
+}
+
+
+
+
+
+/***************3eme section : Passion *****************/
+
+
+
+
+
+
+
+.Passion {
+    position: relative;
+    background-color: #f26522;
+    padding-left: 2%;
+    border-radius:1vw;
+    transition:0.5s;
+    float: left;
+    margin: 3% 0 0 3%;
+    padding-bottom:6%;
+    padding-right:7%;
+}
+
+.Passion:hover {
+    padding:2% 2% 2% 4%;
+    background-color: #934a23;
+}
+
+.Passion #text3 {
+    color: white;
+    margin-right:15%;
+    text-transform: uppercase;
+    font-size:1.1vw;
+    font-family: "Arial Black",sans-serif;
+    text-align: center;
+
+
+}
+
+.Passion a {
+     color: #711e13;
+    font-family: "Arial Black",sans-serif;
+    font-size:0.8vw;
+    float:left;
+}
+
+#Q5 {
+ padding-right:40%;
+}
+
+
+
+/****************4eme section: Competences ************/
+
+
+
+
+
+
+
+
+
+.competences {
+    position: relative;
+    background-color: #802116;
+    margin:40% 25% 3% 25%;
+    border-radius: 1vw;
+    transition: 0.5s;
+    padding-bottom:12%;
+
+}
+.competences:hover {
+    margin:38% 23% 2% 23%;
+    background-color: #571711;
+}
+.competences a {
+    color: #c48239;
+    font-family: "Arial Black",sans-serif;
+    font-size:0.8vw;
+    float:left;
+}
+#text4 {
+    color: #ffffff;
+     text-transform: uppercase;
+    font-size:1.7vw;
+    font-family: "Arial Black",sans-serif;
+    padding-left:30%;
+}
+
+#Q6 {
+    float:left;
+    margin-left:5%;
+}
+
+#Q7 {
+    float:left;
+    margin-left:7%;
+}
+#Q8 {
+    float:left;
+    margin-left:7%;
+}
+
+
+
+
+
+
+/************** Overlay *******************************/
+
+
+
+
+.overlay{
+    width:100%;
+    height:0;
+    position: fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    transition:0.5s;
+    overflow-x:hidden;
+    background-color:rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+
+.contenu-overlay {
+    position:relative;
+    top:25%;
+    height:100%;
+    text-align:center;
+    margin-top:30px;
+}
+
+.overlay p {
+    padding:2vw;
+    text-decoration: none;
+    font-size: 3vw;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.5s;
+}
+.overlay p:hover  {
+    color: #a1a1a1;
+
+}
+.overlay a {
+    padding:2vw;
+    text-decoration: none;
+    font-size: 3vw;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.5s;
+}
+.overlay a:hover  {
+    color: #a1a1a1;
+
+}
+.overlay .close {
+    position: absolute;
+    top:2vw;
+    right:3vw;
+    font-size:3.4vw;
+
+}
+
+
+#btn {
+    background-color: #00a4d1;
+    padding:1% 3% 1% 3%;
+    margin-left:45%;
+    margin-top :3%;
+    margin-bottom:5%;
+    border-radius: 1vw;
+    cursor:pointer;
+}
