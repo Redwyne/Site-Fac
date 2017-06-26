@@ -43,3 +43,18 @@ function fermerd () {
     document.getElementById("Navigateurd").style.height= "0%";
 
 }
+
+function change_style(){
+	var style1 = document.createElement('link');
+	style1.href = "../Css/Programmes2.css";
+	style1.rel = "stylesheet";
+	document.getElementsByTagName("head")[0].appendChild(style1);
+}
+
+function change_style2(){
+	var style1 = document.createElement('link');
+	style1.href = "../Css/Programmes.css";
+	style1.rel = "stylesheet";
+	document.getElementsByTagName("head")[0].appendChild(style1);
+}
+

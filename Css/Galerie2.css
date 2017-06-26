@@ -1,6 +1,9 @@
-/******lien *******/
+
+/*****************************Pagination de base****************************/
+
+
 body {
-	background-color: #636363;
+	background-color: #244623;
 }
 .liens {
     position: absolute;
@@ -15,7 +18,7 @@ body {
     height: 5%;
     width: 10%;
     display: inline-block;
-    color: #00a4d1;
+    color: #008b34;
     padding: 5% 15% 7% 3%;
     text-decoration: none;
     font-size: 1.1vw;
@@ -25,7 +28,7 @@ body {
 }
 
 #programme:hover {
-    background-color: #00a4d1;
+    background-color: #008b34;
     color: #FFFFFF;
     border-radius: 25px;
 }
@@ -34,7 +37,7 @@ body {
     height: 5%;
     width: 10%;
     display: inline-block;
-    color: #00a4d1;
+    color: #008b34;
     padding: 5% 10% 7% 12%;
     margin-left: 7%;
     text-decoration: none;
@@ -45,7 +48,7 @@ body {
 }
 
 #Galerie:hover {
-    background-color: #00a4d1;
+    background-color: #008b34;
     color: #FFFFFF;
     border-radius: 25px;
 }
@@ -55,7 +58,7 @@ body {
     width: 10%;
     display: inline-block;
     float: right;
-    color: #00a4d1;
+    color: #008b34;
     padding: 5% 8% 7% 10%;
     text-decoration: none;
     font-size: 1.1vw;
@@ -65,13 +68,9 @@ body {
 }
 
 #Demande:hover {
-    background-color: #00a4d1;
+    background-color: #008b34;
     color: #FFFFFF;
     border-radius: 25px;
-}
-
-
-
 
 
 

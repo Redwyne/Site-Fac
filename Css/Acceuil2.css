@@ -1,11 +1,6 @@
-
-
-
 body {
-	background-color: #636363;
+	background-color: #244623;
 }
-
-
 .liens {
     position: absolute;
     right: 25%;
@@ -19,7 +14,7 @@ body {
     height: 5%;
     width: 10%;
     display: inline-block;
-    color: #00a4d1;
+    color: #008b34;
     padding: 5% 15% 7% 3%;
     text-decoration: none;
     font-size: 1.1vw;
@@ -29,7 +24,7 @@ body {
 }
 
 #programme:hover {
-    background-color: #00a4d1;
+    background-color: #008b34;
     color: #FFFFFF;
     border-radius: 25px;
 }
@@ -38,7 +33,7 @@ body {
     height: 5%;
     width: 10%;
     display: inline-block;
-    color: #00a4d1;
+    color: #008b34;
     padding: 5% 10% 7% 12%;
     margin-left: 7%;
     text-decoration: none;
@@ -49,7 +44,7 @@ body {
 }
 
 #Galerie:hover {
-    background-color: #00a4d1;
+    background-color: #008b34;
     color: #FFFFFF;
     border-radius: 25px;
 }
@@ -59,7 +54,7 @@ body {
     width: 10%;
     display: inline-block;
     float: right;
-    color: #00a4d1;
+    color: #008b34;
     padding: 5% 8% 7% 10%;
     text-decoration: none;
     font-size: 1.1vw;
@@ -69,16 +64,21 @@ body {
 }
 
 #Demande:hover {
-    background-color: #00a4d1;
+    background-color: #008b34;
     color: #FFFFFF;
     border-radius: 25px;
 }
+
+
+
+
+
 
 /****************** Section "concours"  ************************/
 .now {
     position: relative;
     margin: 7% 25% 0 25%;
-    background-color: #00a4d1;
+    background-color: #008b34;
     border-radius: 25px;
 
 
@@ -86,13 +86,13 @@ body {
 
 .now:hover{
     transition: background-color 0.5s linear, margin 0.1s linear;
-    background-color: #0078a5;
+    background-color: #1c7b36;
     margin: 6% 23% 0 23%;
 
 }
 
 .now #small {
-    background-color: #00a4d1;
+    background-color: #29d150;
     margin-right: 70%;
 }
 
@@ -153,7 +153,7 @@ body {
     height: 100%;
     padding: 1.2% 1% 3% 1%;
     margin-left: 0;
-    background-color: #00a4d1;
+    background-color: #008b34;
     display: inline-block;
     border-radius: 1vw;
 }
@@ -171,7 +171,7 @@ body {
     padding: 1.2% 1% 3% 1%;
     margin-left: 17%;
     width: 20%;
-    background-color: #f1a93f;
+    background-color: #01688b;
     display: inline-block;
     border-radius: 1vw;
 }
@@ -181,7 +181,7 @@ body {
     margin-right: 0%;
     float: right;
     width: 20%;
-    background-color: #f26522;
+    background-color: #031973;
     display: inline-block;
     border-radius: 1vw;
 }
@@ -211,13 +211,13 @@ body {
 .video {
     position: relative;
     margin: 7% 45% 0 25%;
-    background-color: #f1a93f;
+    background-color: #35086a;
     border-radius: 25px;
 }
 
 .video   :hover {
     transition: background-color 2s ease, border-radius 2s ease;
-    background-color: #c48239;
+    background-color: #460880;
 
     border-radius: 50%;
 }
@@ -228,7 +228,7 @@ body {
 }
 .video #vid  :hover {
     transition: background-color 2s ease, border-radius 2s ease;
-    background-color: #c48239;
+    background-color: #6408a7;
 
     border-radius: 50%;
 }
@@ -238,7 +238,7 @@ body {
 
 /******************  plan du campus  ************************/
 .plan {
-    background-color: #f1a93f;
+    background-color: #29d150;
     position: relative;
     margin: -17.5% 25% 0 0;
     float: right;

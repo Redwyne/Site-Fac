@@ -1,5 +1,11 @@
 /*****************************Pagination de base****************************/
 
+
+
+body {
+	background-color: #636363;
+}
+
 .liens {
     position: absolute;
     right: 25%;

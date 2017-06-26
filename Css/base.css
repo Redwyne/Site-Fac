@@ -32,6 +32,17 @@ header {
 
 }
 
+#btnn {
+     position : absolute;
+     margin: 3% 0 0 2%;
+     background-color: #1c7b36;
+ }
+#btnn2 {
+    position : absolute;
+     margin: 5% 0 0 2%;
+     background-color: #00a4d1;
+}
+
 /*********** gestion haut de la page  *******************/
 .haut {
     position: relative;
@@ -58,27 +69,7 @@ header {
 
 }
 
-.liens #programme {
-    height: 5%;
-    width: 10%;
-    display: inline-block;
-    color: #00a4d1;
-    padding: 5% 15% 7% 3%;
-    text-decoration: none;
-    font-size: 1.1vw;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
 
-
-}
-
-#programme:hover {
-    transition: background-color 1s  ease,padding 1s ease;
-    background-color: #00a4d1;
-    color: #FFFFFF;
-    padding:7% 17% 10% 5% ;
-    border-radius: 25px;
-}
 
 #Galerie {
     position: relative;
